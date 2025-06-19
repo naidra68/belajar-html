@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+</head>
+<body>
+    <h1>Belajar HTML - Video element</h1>
+    <!-- Audio without controls -->
+    <!-- (tidak tampil apa-apa dan tidak bisa diapa-apain)  -->
+    <p>Video without controls</p>
+    <p><video src="video.mp4" width="300"></video></p>
+
+    <!-- Audio with controls -->
+    <p>Video with controls</p>
+    <p><video src="video.mp4" controls width="300"></video></p>
+
+    <!-- Audio with loop -->
+    <p>Video with loop</p>
+    <p><video src="video.mp4" controls loop width="300"></video></p>
+
+    <!-- Video with controls muted-->
+    <p>Video with controls muted</p>
+    <p><video src="video.mp4" controls muted width="300"></video></p>
+
+    <!-- Video with controls preload none-->
+    <p>Video with controls preload none</p>
+    <p><video src="video.mp4" controls preload="none" width="300"></video></p>
+
+    <!-- Video with controls preload auto-->
+    <p>Video with controls preload auto</p>
+    <p><video src="video.mp4" controls preload="auto" width="300"></video></p>
+
+    <!-- Video with controls preload meta-->
+    <p>Video with controls preload meta</p>
+    <p><video src="video.mp4" controls preload="meta" width="300"></video></p>
+
+    <!-- Video poster -->
+    <p>Video poster</p>
+    <p><video src="video.mp4" controls width="300" poster="poster.jpg"></video></p>
+
+    <!-- Video with another source video -->
+    <p>Video with another source video</p>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+        <source src="video.webm" type="video/webm">
+    </video>
+</body>
+</html>
