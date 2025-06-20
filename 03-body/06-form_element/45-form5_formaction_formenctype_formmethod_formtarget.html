@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <!-- formaction -->
+        <h3>formaction</h3>
+        <form action="proses.php" method="get">
+            <p>Username : <input type="text" name="username"></p>
+            <p>Password : <input type="password" name="pass"></p>
+            <p><input type="submit" value="Kirim Data ke proses"></p>
+            <p><input type="submit" value="Kirim Data ke register" formaction="register.php"></p>
+        </form>
+
+        <!-- formaction, formenctype, formmethod, formtarget -->
+        <h3>formaction, formenctype, formmethod, formtarget</h3>
+        <form action="proses.php" method="get">
+            <p>Username : <input type="text" name="username"></p>
+            <p>Password : <input type="password" name="pass"></p>
+            <p><input type="submit" value="Kirim Data ke proses"></p>
+            <p><input type="submit" value="Kirim Data ke register" formaction="register.php" formmethod="post" formtarget="_blank" formenctype="multipart/form-data"></p>
+        </form>
+    </body>
+</html>
