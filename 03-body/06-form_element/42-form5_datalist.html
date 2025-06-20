@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <datalist id="list_kota">
+            <option value="Jakarta">
+            <option value="Bandung">
+            <option value="Palembang">
+            <option value="Manado">
+            <option value="Kudus">
+            <option value="Semarang">
+            <option value="Surabaya">
+            <option value="Bali">
+        </datalist>
+        <form action="proses.php" method="get">
+            <p>Kota Kelahiran : <input type="text" name="kota" list="list_kota"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+    </body>
+</html>
