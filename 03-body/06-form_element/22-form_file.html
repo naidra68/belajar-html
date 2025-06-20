@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <!-- Normal Form File -->
+        <h3>Normal Form File</h3>
+        <form action="proses.php" method="post">
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Upload Foto : <input type="file" name="fle_gambar"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+
+        <!-- Normal Form File with Enctype -->
+        <h3>Normal Form File with Enctype</h3>
+        <form action="proses.php" method="post" enctype="multipart/form-data">
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Upload Foto : <input type="file" name="fle_gambar"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+
+        <!-- Normal Form File with Enctype and accept-->
+        <h3>Normal Form File with Enctype and accept</h3>
+        <form action="proses.php" method="post" enctype="multipart/form-data">
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Upload Foto : <input type="file" name="fle_gambar" accept="image/*"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+    </body>
+</html>
