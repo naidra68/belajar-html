@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <form action="proses.php" method="get" onsubmit="return false">
+            <fieldset style="width: 300px;">
+                <legend>Perkalian</legend>
+                <p>Nilai 1 : <input type="number" id="nilai_1"></p>
+                <p>Nilai 2 : <input type="number" id="nilai_2"></p>
+                <p>Hasil : <output id="hasil"></output></p>
+                <button onclick="hitung()">Tampilkan</button>
+                <script>
+                    function hitung() {
+                        let angka1=document.getElementById("nilai_1").value;
+                        let angka2=document.getElementById("nilai_2").value;
+                        let hasil= angka1 * angka2;
+                        document.getElementById("hasil").innerHTML=hasil;
+                        return false;
+                    }
+                </script>
+            </fieldset>
+        </form>
+    </body>
+</html>
