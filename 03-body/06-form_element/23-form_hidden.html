@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <!-- Normal form Hidden -->
+        <h3>Normal form Hidden</h3>
+        <form action="form.php" method="get">
+            <p>Nama : <input type="text" name="nama_user"></p>
+            <p>Password : <input type="text" name="password_user"></p>
+            <input type="hidden" name="tersembunyi">
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+
+        <!-- Normal form hidden token -->
+        <h3>Normal form Hidden Token</h3>
+        <form action="form.php" method="get">
+            <p>Nama : <input type="text" name="nama_user"></p>
+            <p>Password : <input type="text" name="password_user"></p>
+            <input type="hidden" name="token" value="ash78rej883s">
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+    </body>
+</html>
