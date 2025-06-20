@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <!-- Normal form5 number -->
+        <h3>Normal form5 number</h3>
+        <form action="proses.php" method="get">
+            <p>Umur : <input type="number" name="umur"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+
+        <!-- Normal form5 number with min and max -->
+        <h3>Mormal form5 number with min and max</h3>
+        <form action="proses.php" method="get">
+            <p>Umur : <input type="number" name="umur" min="0" max="99"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+
+        <!-- Normal form5 number with min, max, and step -->
+        <h3>Mormal form5 number with min, max, and step</h3>
+        <form action="proses.php" method="get">
+            <p>Umur : <input type="number" name="umur" min="0" max="99" step="5"></p>
+            <p>Tinggi Badan (cm) : <input type="number" name="umur" min="0" step="0.1"></p>
+            <p><input type="submit" value="Kirim Data"></p>
+        </form>
+    </body>
+</html>
