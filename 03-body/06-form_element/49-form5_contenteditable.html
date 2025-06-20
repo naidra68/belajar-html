@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <!-- Normal contenteditable -->
+        <p contenteditable="true">Anda bisa mengedit teks ini.</p>
+        <br><hr><br>
+        <!-- Normal contenteditable with javascript -->
+        <p contenteditable="true" id="editor">Anda bisa mengedit teks ini.</p>
+        <button onclick="getText()">Copy Teks</button>
+        <br><br>
+        <div id="container"></div>
+        <script>
+            function getText() {
+                let a=document.getElementById("editor").innerHTML;
+                document.getElementById("container").innerHTML=a;
+            }
+        </script>
+    </body>
+</html>
