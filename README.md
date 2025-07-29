@@ -12,5 +12,12 @@ Dokumentasi saya belajar HTML mulai dari awal sampai akhir, tidak ada yang spesi
     - [05-whitespace](https://github.com/naidra68/belajar-html/tree/main/01-html_introduce/01-whitespace)
     - [06-comment](https://github.com/naidra68/belajar-html/tree/main/01-html_introduce/01-comment)
     - [07-block_inline](https://github.com/naidra68/belajar-html/tree/main/01-html_introduce/01-block_inline)
-
+2. [02-head_element](https://github.com/naidra68/belajar-html/tree/main/02-head_element)
+    - [01-meta](https://github.com/naidra68/belajar-html/tree/main/02-head_element/01-meta)
+    - [02-link](https://github.com/naidra68/belajar-html/tree/main/02-head_element/02-link)
+    - [03-style](https://github.com/naidra68/belajar-html/tree/main/02-head_element/03-style)
+    - [04-script](https://github.com/naidra68/belajar-html/tree/main/02-head_element/04-script)
+    - [05-title](https://github.com/naidra68/belajar-html/tree/main/02-head_element/05-title)
+    - [06-og](https://github.com/naidra68/belajar-html/tree/main/02-head_element/06-og)
+    
 Terima kasih sudah berkunjung :heart:
