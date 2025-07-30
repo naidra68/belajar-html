@@ -19,5 +19,8 @@ Dokumentasi saya belajar HTML mulai dari awal sampai akhir, tidak ada yang spesi
     - [04-script](https://github.com/naidra68/belajar-html/tree/main/02-head_element/04-script)
     - [05-title](https://github.com/naidra68/belajar-html/tree/main/02-head_element/05-title)
     - [06-og](https://github.com/naidra68/belajar-html/tree/main/02-head_element/06-og)
-    
+3. [03-body_element](https://github.com/naidra68/belajar-html/tree/main/03-body_element)
+    - [01-text_formatting](https://github.com/naidra68/belajar-html/tree/main/01-text_formatting/)
+    - [02-list](https://github.com/naidra68/belajar-html/tree/main/02-list/)
+
 Terima kasih sudah berkunjung :heart:
