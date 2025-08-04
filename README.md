@@ -23,5 +23,7 @@ Dokumentasi saya belajar HTML mulai dari awal sampai akhir, tidak ada yang spesi
     - [01-text_formatting](https://github.com/naidra68/belajar-html/tree/main/01-text_formatting/)
     - [02-list](https://github.com/naidra68/belajar-html/tree/main/02-list/)
     - [03-img](https://github.com/naidra68/belajar-html/tree/main/03-img/)
+    - [04-audio_video](https://github.com/naidra68/belajar-html/tree/main/04-audio_video/)
+    - [05-table](https://github.com/naidra68/belajar-html/tree/main/05-table/)
 
 Terima kasih sudah berkunjung :heart:
