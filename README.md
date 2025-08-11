@@ -25,5 +25,6 @@ Dokumentasi saya belajar HTML mulai dari awal sampai akhir, tidak ada yang spesi
     - [03-img](https://github.com/naidra68/belajar-html/tree/main/03-img/)
     - [04-audio_video](https://github.com/naidra68/belajar-html/tree/main/04-audio_video/)
     - [05-table](https://github.com/naidra68/belajar-html/tree/main/05-table/)
+    - [06-form](https://github.com/naidra68/belajar-html/tree/main/06-form/)
 
 Terima kasih sudah berkunjung :heart:
