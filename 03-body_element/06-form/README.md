@@ -1,17 +1,10 @@
-# :sparkles: FORM ELEMENT
+# Form Element
 
-## Atribute Action
+Form merupakan aspek penting dalam website, setiap website entah itu website kecil maupun besar pasti memiliki form. Form sendiri adalah formulir yang bisa diisi oleh admin atau pengunjung website itu sendiri. Penjelasan sederhana itu adalah apapun yang dapat di ketikkan itulah form. HTML menyediakan banyak tag dan atribut untuk membuat form ini.
 
-> Atribut action digunakan untuk menulis alamat file yang menjadi tujuan pengiriman data. Biasanya nilai dari atribut action berupa alamat sebuah file PHP (atau bahasa pemrograman server lain seperti ASP).
+HTML merupakan gerbang awal untuk belajar pembuatan form sebelum form itu dapat diproses pada bahasa pemrograman lain seperti `PHP`. Validasi nya menggunakan `Javascript` serta penyimpanan hasil form nya dapat menggunakan `MYSQL`.
 
-## Atribute Method
+HTML5 sendiri menyediakan berbagai fitur baru seperti validasi yang awalnya tugas dari Javascript, namun dapat dipakai hanya dengan HTML5 saja, meskipun begitu tetap menggunakan javascript untuk validasi ekstra.
 
-> Atribut method berfungsi untuk memberitahu web browser bagaimana cara pengiriman data form. Atribut ini dapat diisi dengan nilai get atau post.
 
-### Method Get
 
-> method="get" lebih pas dipakai untuk form yang akan mengambil sesuatu dari server. Contohnya seperti form pencarian dimana user mengetik sesuatu ke dalam form, klik tombol search, lalu server akan mengakses database untuk menampilkan hasilnya.
-
-### Method Post
-
-> method="post" lebih cocok untuk form yang akan menginput sesuatu ke database web server. Contohnya seperti form registrasi dan form login. 
