@@ -31,3 +31,20 @@ Sekarang, kita coba buat `checkbox` untuk memilih beberapa bahasa pemrograman ya
 </form>
 ```
 
+# Form Checkbox (Checked)
+
+Pada input type `checkbox` terdapat sebuah kondisi yang dapat digunakan yaitu `checked`. Kondisi ini biasanya digunakan jika sebuah form memiliki checkbox yang telah ditentukan sudah diisi secara otomatis. Berikut contoh penulisan lengkap `checkbox` dengan kondisi `checked` pada beberapa `checkbox`.
+
+```html
+<!-- List Checkbox -->
+<h3>List Checkbox</h3>
+<form action="proses.html" method="get">
+    <p><input type="checkbox" name="target1" value="HTML"> Menguasai HTML</p>
+    <p><input type="checkbox" name="target2" value="CSS" checked> Paham CSS</p>
+    <p><input type="checkbox" name="target3" value="JS"> Jago JS</p>
+    <p><input type="checkbox" name="target4" value="PHP" checked> Mastering PHP</p>
+    <p><input type="checkbox" name="target5" value="MYSQL"> Expert MYSQL</p>
+    <p><input type="submit" value="Kirim Data"></p>
+</form>
+```
+
